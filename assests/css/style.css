@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end:10;
+  }
+
+  li{
+    list-style-type: none;
+    padding-right: 20px;
+
+}
+
+.nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+  .item2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .item3 {
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color:blanchedalmond;
+  }
+
+  .item3 p{
+    font-size: 20px;
+  }
+
+  .item4 {
+    background-color:blanchedalmond;
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 10;
+  }
+
+  .item4 p{
+    font-size: 20px;
+  }
+  
+  .item5 {
+    background-color:black;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+.item6 {
+  grid-row-start: 6;
+  grid-row-end: 9;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color:blanchedalmond;
+}
+
+.item6 p{
+  font-size: 20px;
+}
+
+.item7 {
+    background-color:blanchedalmond;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 10;
+  }
+  
+.item7 p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+  .item8 {
+    background-color: black;
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 7;
+  }
+
+  .item8 img{
+    /* width: 150px; */
+    height:fit-content;
+  }
+
+  .item9 {
+    background-color:blanchedalmond;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 7;
+    grid-column-end: 10;
+  }
+
+  .item10{
+    background-color:blanchedalmond;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item11{
+    background-color:blanchedalmond;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 10;
+  }
